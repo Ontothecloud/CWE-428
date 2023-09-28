@@ -18,7 +18,7 @@ Vulnerability Description: The remote Windows host has at least one service inst
 Vulnerability Solution: Ensure that any services that contain a space in the path enclose the path in quotes.
 Remediation
 There are two stages to fix these vulnerabilities
-1. Dinding the unquoted path on the affected host
+1. finding the unquoted path on the affected host
 2. Fixing the unquoted paths 
 
 
